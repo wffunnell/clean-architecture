@@ -3,8 +3,8 @@ package staffmanager.presentation;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 import org.joda.time.DateTime;
-import staffmanager.configuration.BirthdayModuleConfiguration;
 import staffmanager.birthday.BirthdayEmailer;
+import staffmanager.configuration.BirthdayModuleConfiguration;
 import staffmanager.usecase.BirthdayMessenger;
 
 public class BirthdayController {

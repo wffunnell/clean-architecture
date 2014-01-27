@@ -2,10 +2,10 @@ package staffmanager.birthday;
 
 import com.google.common.collect.Iterables;
 import org.joda.time.DateTime;
-import staffmanager.usecase.BirthdayMessenger;
+import staffmanager.employee.Employee;
 import staffmanager.gateway.EmailService;
 import staffmanager.gateway.EmployeeRepository;
-import staffmanager.employee.Employee;
+import staffmanager.usecase.BirthdayMessenger;
 
 import javax.inject.Inject;
 
