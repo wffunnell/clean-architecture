@@ -1,7 +1,7 @@
-package staffman.application;
+package staffmanager.gateway;
 
 import org.joda.time.DateTime;
-import staffman.domain.Employee;
+import staffmanager.domain.Employee;
 
 public interface EmployeeRepository {
     Iterable<Employee> employeesRetrieved();

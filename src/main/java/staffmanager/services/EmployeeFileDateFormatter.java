@@ -1,4 +1,4 @@
-package staffman.services;
+package staffmanager.services;
 
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
